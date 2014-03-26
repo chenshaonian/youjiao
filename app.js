@@ -10,11 +10,21 @@ $(function(){
 			$parent.find(' li').eq(pos).addClass('listlichecked')
 			.siblings().removeClass('listlichecked');
 		
-			var urll = 'url(\"./img/img'+(pos+1)+'.jpg\") no-repeat';
-			$('.pic_place').css({'background':urll});
+
+			var urll = './img/img'+(pos+1)+'.jpg';
+			console.log(urll);
+			$('.pic_place_inner').attr('src',urll);
+			// $('.pic_place').css({'background':urll});
 
 		},function(){
 			//console.log("out");
 	});
 
 });	
+
+	
+
+
+
+
+

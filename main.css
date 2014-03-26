@@ -53,9 +53,21 @@
 	width: 85%;
 	float: left;
 	background-color: #cff;
-	background: url('./img/img1.jpg') no-repeat;
 }
-
+.pic_place img{
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+.pic_place_inner_content{
+	z-index: 2;
+	position: relative;
+	height: 20%;
+	top: -20%;
+	color: #fff;
+	background-color: #111;
+	opacity: 0.5;
+}
 
 .topbar{
 	height: 20px;
